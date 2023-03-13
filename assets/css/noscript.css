@@ -1,0 +1,50 @@
+/*
+
+*/
+
+/* BG */
+
+	body.is-preload #bg:before {
+		background-color: transparent;
+	}
+
+	::-webkit-scrollbar {
+		width: 15px;
+	  }
+	  ::-webkit-scrollbar-track {
+		background-color: #f6f6f6;
+		box-shadow: 0 0 10px #ddd inset;
+	  }
+	  ::-webkit-scrollbar-thumb {
+		background-color: #666;
+		border-radius: 20px;
+	  }
+	  ::-webkit-scrollbar-thumb:hover {
+		background-color: #313131;
+	  }
+
+/* Header */
+
+	body.is-preload #header {
+		-moz-filter: none;
+		-webkit-filter: none;
+		-ms-filter: none;
+		filter: none;
+	}
+
+		body.is-preload #header > * {
+			opacity: 1;
+		}
+
+		body.is-preload #header .content .inner {
+			max-height: none;
+			padding: 3rem 2rem;
+			opacity: 1;
+		}
+
+/* Main */
+
+	#main article {
+		opacity: 1;
+		margin: 4rem 0 0 0;
+	}
