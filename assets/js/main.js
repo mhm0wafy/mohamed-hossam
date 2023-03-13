@@ -18,17 +18,6 @@
 			xxsmall:  [ null,      '360px'  ]
 		});
 
-		window.addEventListener("load", () => {
-			const loader = document.querySelector(".loader");
-		  
-			loader.classList.add("loader--hidden");
-		  
-			loader.addEventListener("transitionend", () => {
-			  document.body.removeChild(loader);
-			});
-		  });
-		  
-
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
